@@ -1,0 +1,7 @@
+{
+  "name": "466548.github.io",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
