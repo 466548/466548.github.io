@@ -5,7 +5,11 @@ fileref.setAttribute("type", "text/css");
 fileref.setAttribute("href", filename);
 document.getElementsByTagName("head")[0].appendChild(fileref);
 
-
+var demoad = document.createElement('div');
+document.getElementById('cda-remove').addEventListener('click',function(e){
+	demoad.style.display = 'none';
+	e.preventDefault();
+});
 
 var bsa = document.createElement('script');
 bsa.type = 'text/javascript';
