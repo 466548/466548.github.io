@@ -19,7 +19,7 @@ var bsa = document.createElement('script');
 bsa.type = 'text/javascript';
 bsa.async = true;
 bsa.id = '_carbonads_js';
-bsa.src = '//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=codrops';
+bsa.src = 'js/carbon.js?zoneid=1673&serve=C6AILKT&placement=codrops';
 demoad.appendChild(bsa);
 
 var adChecked = false;
